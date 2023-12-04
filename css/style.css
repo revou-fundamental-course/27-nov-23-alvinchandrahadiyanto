@@ -47,7 +47,7 @@ label {
     margin-top: 10px;
 }
 
-.button{
+button{
     background-color: rgb(242, 4, 242);
     color: white;
     padding: 10px 20px;
@@ -56,11 +56,11 @@ label {
     cursor: pointer;
 }
 
-.button:hover{
+button:hover{
     background-color: rgb(164, 9, 164);
 }
 
-.button:focus{
+button:focus{
     background-color: rgb(84, 4, 84);
     transform: translateY(2px);
 }
