@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <script src="js/script.js"></script>
     <header id="navigation-bar">
         <h3 id="logo">Welcome to Katik</h3>
         <p>Hai sobat, Selamat datang di Katik :)</p>
@@ -24,9 +25,10 @@
         <label for="input-alas" id="label-alas">Alas</label>
         <input type="number" id="input-alas" class="katik-input">
         <div class="buttons">
-            <button>Hitung</button>
+            <button onclick="luasSegitiga()">Hitung</button>
             <button>Reset</button>
         </div>
+        <p id="hasil-luas-segitiga"></p>
     </section>
     <section class="input-section">
         <h2>Keliling Segitiga</h2>
@@ -38,9 +40,10 @@
         <label for="input-sisi-3" id="label-sisi-3">Sisi ke 3</label>
         <input type="number" id="input-sisi-3" class="katik-input">
         <div class="buttons">
-            <button>Hitung</button>
+            <button onclick="kelilingSegitiga()">Hitung</button>
             <button>Reset</button>
         </div>
+        <p id="hasil-keliling-segitiga"></p>
     </section>
 </body>
 </html>
