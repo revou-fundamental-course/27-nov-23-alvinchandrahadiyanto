@@ -48,11 +48,11 @@ label {
     outline: none;
     border-radius: 10px;
     padding: 8px;
-    border: 1px solid blueviolet;
+    border: 2px solid blueviolet;
 }
 
 .katik-input:focus{
-    border: 1px solid red;
+    border: 5px solid red;
 }
 
 .buttons{
