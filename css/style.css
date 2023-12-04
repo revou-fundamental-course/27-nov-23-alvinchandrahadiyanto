@@ -18,10 +18,25 @@ body {
 
 /* INPUT SECTION */
 
-.input-luas-section{
+.segitiga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.input-section{
     display: flex;
     flex-direction: column;
     margin-top: 26px;
+    text-align: center;
+}
+
+input{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label {
