@@ -1,5 +1,5 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #navigation-bar{
@@ -9,11 +9,27 @@ body {
 }
 
 #logo{
-    margin-top: 0;
+    margin: 0.5cm;
 }
 
-.navigation > a {
+.nagivation > a {
     text-decoration: none;
+}
+
+.pilihan{
+    margin-top: 4%;
+    margin-right: 2ch;
+    font-size: larger;
+    background-color: rgb(67, 101, 234);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.pilihan:hover{
+    background-color: rgb(51, 76, 178);
 }
 
 .hasil {
