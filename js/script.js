@@ -20,7 +20,7 @@ function kelilingSegitiga(){
 
     if(!sisi1 || !sisi2 || !sisi3){
         console.log("Sisi 1, Sisi 2, Sisi 3 ada yang Kosong");
-        alert("Sisi 1, Sisi 2 dan Sisi 3 harus diisi");
+        alert("Sisi 1, Sisi 2 dan Sisi 3 harus diisi angka");
     } else {
         var kelilingSegitiga=sisi1+sisi2+sisi3;
         document.getElementById("hasil-keliling-segitiga").innerHTML = "Keliling Segitiga = Sisi 1 + Sisi 2 + Sisi 3"+"<br/>"+

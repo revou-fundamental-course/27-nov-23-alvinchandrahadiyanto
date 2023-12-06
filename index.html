@@ -10,8 +10,8 @@
 <body>
     <script src="js/script.js"></script>
     <header id="navigation-bar">
-        <h3 id="logo">Welcome to Katik</h3>
-        <h3>Selamat datang di Katik :)</h3>
+        <h1 id="logo">Welcome to Katik</h1>
+        <h1>Selamat datang di Katik :)</h1>
         <nav class="nagivation">
             <a href="#luasSegitiga">Luas Segitiga</a>
             <a href="#kelilingSegitiga">Keliling Segitiga</a>
@@ -20,28 +20,28 @@
     <section class="input-section">
         <h2 id="luasSegitiga">Luas Segitiga</h2>
         <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Luas%20Segitiga%20Jika%20Diketahui%20Alas%20dan%20Tinggi%20-%20Matematika%20Kelas%207.png" alt="" class="segitiga">
-        <label for="input-tinggi" id="label-tinggi">Tinggi</label>
-        <input type="number" id="input-tinggi" class="katik-input">
-        <label for="input-alas" id="label-alas">Alas</label>
+        <label for="input-alas" id="label-alas">Alas Segitiga</label>
         <input type="number" id="input-alas" class="katik-input">
+        <label for="input-tinggi" id="label-tinggi">Tinggi Segitiga</label>
+        <input type="number" id="input-tinggi" class="katik-input">
         <div class="buttons">
-            <button onclick="luasSegitiga()">Hitung</button>
-            <button onclick="resetAll()">Reset</button>
+            <button class="hitung" onclick="luasSegitiga()">Hitung</button>
+            <button class="reset" onclick="resetAll()">Reset</button>
         </div>
         <p id="hasil-luas-segitiga" class="hasil"></p>
     </section>
     <section class="input-section">
         <h2 id="kelilingSegitiga">Keliling Segitiga</h2>
         <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Keliling%20Segitiga%20-%20Matematika%20Kelas%207.png" alt="" class="segitiga">
-        <label for="input-sisi-1" id="label-sisi-1">Sisi ke 1</label>
+        <label for="input-sisi-1" id="label-sisi-1">Sisi ke 1 Segitiga</label>
         <input type="number" id="input-sisi-1" class="katik-input">
-        <label for="input-sisi-2" id="label-sisi-2">Sisi ke 2</label>
+        <label for="input-sisi-2" id="label-sisi-2">Sisi ke 2 Segitiga</label>
         <input type="number" id="input-sisi-2" class="katik-input">
-        <label for="input-sisi-3" id="label-sisi-3">Sisi ke 3</label>
+        <label for="input-sisi-3" id="label-sisi-3">Sisi ke 3 Segitiga</label>
         <input type="number" id="input-sisi-3" class="katik-input">
         <div class="buttons">
-            <button onclick="kelilingSegitiga()">Hitung</button>
-            <button onclick="resetAll()">Reset</button>
+            <button class="hitung" onclick="kelilingSegitiga()">Hitung</button>
+            <button class="reset" onclick="resetAll()">Reset</button>
         </div>
         <p id="hasil-keliling-segitiga" class="hasil"></p>
     </section>

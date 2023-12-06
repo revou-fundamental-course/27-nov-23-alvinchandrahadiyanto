@@ -47,8 +47,8 @@ input{
 }
 
 label {
-    margin-bottom: 4px;
-    font-weight: bold;
+    margin-top: 1%;
+    font-size: 2.3ch;
 }
 
 .katik-input{
@@ -62,6 +62,8 @@ label {
     border: 5px solid red;
 }
 
+/* BUTTON SECTION */
+
 .buttons{
     display: flex;
     align-self: center;
@@ -69,8 +71,8 @@ label {
     margin-top: 10px;
 }
 
-button{
-    background-color: rgb(242, 4, 242);
+.hitung{
+    background-color: rgb(67, 101, 234);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -78,11 +80,29 @@ button{
     cursor: pointer;
 }
 
-button:hover{
-    background-color: rgb(164, 9, 164);
+.hitung:hover{
+    background-color: rgb(51, 76, 178);
 }
 
-button:focus{
-    background-color: rgb(84, 4, 84);
-    transform: translateY(2px);
+.hitung:focus{
+    background-color: rgb(36, 53, 122);
+    transform: translateY(5px);
+}
+
+.reset{
+    background-color: rgb(195, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(171, 0, 0);
+}
+
+.reset:focus{
+    background-color: rgb(101, 0, 0);
+    transform: translateY(5px);
 }
