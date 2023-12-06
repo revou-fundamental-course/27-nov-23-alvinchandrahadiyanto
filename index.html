@@ -11,27 +11,27 @@
     <script src="js/script.js"></script>
     <header id="navigation-bar">
         <h3 id="logo">Welcome to Katik</h3>
-        <p>Hai sobat, Selamat datang di Katik :)</p>
+        <h3>Selamat datang di Katik :)</h3>
         <nav class="nagivation">
-            <a href="">Luas Segitiga</a>
-            <a href="">Keliling Segitiga</a>
+            <a href="#luasSegitiga">Luas Segitiga</a>
+            <a href="#kelilingSegitiga">Keliling Segitiga</a>
         </nav>
     </header>
     <section class="input-section">
-        <h2>Luas Segitiga</h2>
-        <img src="https://blog-static.mamikos.com/wp-content/uploads/2021/04/luas-segitiga.jpg" alt="" class="segitiga">
+        <h2 id="luasSegitiga">Luas Segitiga</h2>
+        <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Luas%20Segitiga%20Jika%20Diketahui%20Alas%20dan%20Tinggi%20-%20Matematika%20Kelas%207.png" alt="" class="segitiga">
         <label for="input-tinggi" id="label-tinggi">Tinggi</label>
         <input type="number" id="input-tinggi" class="katik-input">
         <label for="input-alas" id="label-alas">Alas</label>
         <input type="number" id="input-alas" class="katik-input">
         <div class="buttons">
             <button onclick="luasSegitiga()">Hitung</button>
-            <button>Reset</button>
+            <button onclick="resetAll()">Reset</button>
         </div>
-        <p id="hasil-luas-segitiga"></p>
+        <p id="hasil-luas-segitiga" class="hasil"></p>
     </section>
     <section class="input-section">
-        <h2>Keliling Segitiga</h2>
+        <h2 id="kelilingSegitiga">Keliling Segitiga</h2>
         <img src="https://cdn-web.ruangguru.com/landing-pages/assets/hs/Rumus%20Keliling%20Segitiga%20-%20Matematika%20Kelas%207.png" alt="" class="segitiga">
         <label for="input-sisi-1" id="label-sisi-1">Sisi ke 1</label>
         <input type="number" id="input-sisi-1" class="katik-input">
@@ -41,9 +41,9 @@
         <input type="number" id="input-sisi-3" class="katik-input">
         <div class="buttons">
             <button onclick="kelilingSegitiga()">Hitung</button>
-            <button>Reset</button>
+            <button onclick="resetAll()">Reset</button>
         </div>
-        <p id="hasil-keliling-segitiga"></p>
+        <p id="hasil-keliling-segitiga" class="hasil"></p>
     </section>
 </body>
 </html>
